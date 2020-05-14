@@ -6,11 +6,30 @@ $this->title = 'Регистрация и удаление обработчик�
 
 
     <button class="redStyle">Нажать</button>
+    <button class="langs">Языки программирования</button>
+    <button>Жми1</button>
+    <button>Жми2</button>
+    <button>Жми3</button>
 
 <?php
 $this->registerJs(<<<JS
-$('button').bind('click', function(){
-        alert('Привет мир!');
+/*$('button').bind('click', function(e){
+    alert('Привет мир!');
+});
+$('button').unbind();
+$(function(){
+    $('button').bind('click', function(){
+        if($(this).hasClass("langs")){
+            $('body').append('<ul><li>Java</li><li>JavaScript</li></ul>');
+        }
+        alert('Обработчик события click');
     });
+});*/
+$(function(){
+    $('button').one('click', function(e){
+        $(this).css('color', 'red');
+        alert('Обработчик для кнопки: '+$(this).text());
+    });
+});
 JS
 );

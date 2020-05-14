@@ -95,6 +95,12 @@ class SiteController extends Controller
             'date' => $date
         ]);
     }
+    public function actionKurs()
+    {
+
+        return $this->render('kurs');
+    }
+
 
 
     /**
