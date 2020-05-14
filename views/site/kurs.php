@@ -5,7 +5,7 @@ $this->title = 'Быть программистом';
 <body>
 <h1 class="first" data-id="22" data-name="Название">Быть программистом</h1>
 <h1 id="second">Быть программистом</h1>
-<h2 class="hello">Hello, world!</h2>
+<h2 class="hello" title="test-word">Hello, world!</h2>
 <p>
     Почему он используется?
     Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют
@@ -20,11 +20,23 @@ $this->title = 'Быть программистом';
     Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также даны разделы 1.10.32 и 1.10.33 "de
     Finibus Bonorum et Malorum" Цицерона и их английский перевод, сделанный H. Rackham, 1914 год.
 </p>
+<button>Click me</button>
 <ul>
-    <li>First</li>
+    <li><span>First</span></li>
     <li>Second</li>
     <li>Third</li>
     <li>Fourth</li>
 </ul>
+
+<table>
+    <tr>
+        <td>Контент1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Контент2</td>
+    </tr>
+</table>
 </body>
 </html>
