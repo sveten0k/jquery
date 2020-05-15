@@ -8,9 +8,14 @@ $this->title = 'Введение в AJAX';
 
 <?php
 $this->registerJs(<<<JS
+/*$(function(){
+    $('button').click(function(){
+        $('#news').load('/ajax/ajax');
+    });
+});*/
 $(function(){
     $('button').click(function(){
-        $('#news').load('ajax.php');
+        $('#news').load('/ajax/ajax', {'event':'Начало чемпионата России', 'date':'13.07.2013'},function(){alert('Запрос выполнен')});
     });
 });
 

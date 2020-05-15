@@ -16,4 +16,8 @@ class AjaxController extends Controller
     {
         return $this->render('ajax');
     }
+    public function actionGet()
+    {
+        return $this->render('get');
+    }
 }
