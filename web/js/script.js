@@ -17,9 +17,15 @@ $('ul li:has("span")').css({'color':'pink'});
 $('ul li:parent').css({'color':'turquoise'});
 $('table tr td:parent').css({'background':'red'});
 
-$('button').click(function () {
+$('button').dblclick(function () {
 alert('test');
 });
-$('button').on('click',function () {
+/*$('button').on('click',function () {
     alert('test2');
+});*/
+/*$('button').mouseenter(function () {
+    alert('test3');
+});*/
+$('button').mouseleave(function () {
+    alert('test4');
 });

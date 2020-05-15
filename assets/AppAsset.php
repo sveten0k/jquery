@@ -20,10 +20,13 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',
         'css/site.css',
     ];
     public $js = [
         //'js/script.js',
+        'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
+        'js/my1.js',
 
     ];
     public $depends = [
