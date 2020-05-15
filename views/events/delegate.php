@@ -3,10 +3,10 @@
 /* @var $this yii\web\View */
 $this->title = 'Методы delegate и on';
 ?>
-<div class="div">
-    <button>Жми1</button>
-    <button>Жми2</button>
-</div>
+    <div class="div">
+        <button>Жми1</button>
+        <button>Жми2</button>
+    </div>
 
 <?php
 $this->registerJs(<<<JS

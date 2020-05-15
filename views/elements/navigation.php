@@ -4,21 +4,21 @@
 $this->title = 'Навигация по странице';
 ?>
 
-<ul class="menu">
-    <li>Пункт 1</li>
-    <li>Пункт 2
-<ul class="submenu">
-            <li>Подпункт 2.1</li>
-            <li>Подпункт 2.2</li>
-        </ul>
-    </li>
-    <li>Пункт 3
-<ul>
-            <li>Подпункт 3.1</li>
-            <li>Подпункт 3.2</li>
-        </ul>
-    </li>
-</ul>
+    <ul class="menu">
+        <li>Пункт 1</li>
+        <li>Пункт 2
+            <ul class="submenu">
+                <li>Подпункт 2.1</li>
+                <li>Подпункт 2.2</li>
+            </ul>
+        </li>
+        <li>Пункт 3
+            <ul>
+                <li>Подпункт 3.1</li>
+                <li>Подпункт 3.2</li>
+            </ul>
+        </li>
+    </ul>
 
     <h2 class="header">Заголовок</h2>
     <ul class="menu">

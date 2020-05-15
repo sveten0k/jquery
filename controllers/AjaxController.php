@@ -32,4 +32,8 @@ class AjaxController extends Controller
     {
         return $this->render('script');
     }
+    public function actionQuery()
+    {
+        return $this->render('query');
+    }
 }

@@ -8,8 +8,12 @@ $this->title = 'Получение данных JSON';
     </select>
 
     <table id="users">
-    <tr><td>Id</td><td>Имя</td><td>Возраст</td><tr>
-</table>
+        <tr>
+            <td>Id</td>
+            <td>Имя</td>
+            <td>Возраст</td>
+        <tr>
+    </table>
 
 <?php
 $this->registerJs(<<<JS

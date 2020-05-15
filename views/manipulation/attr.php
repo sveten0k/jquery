@@ -3,7 +3,7 @@
 $this->title = 'Атрибуты и свойства элементов';
 ?>
 
-<!--<a href="1.html" id="link1">Ссылка</a>-->
+    <!--<a href="1.html" id="link1">Ссылка</a>-->
 
     <ul data-year="2010" data-description="lang">
         <li>Java</li>

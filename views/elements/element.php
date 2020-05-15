@@ -3,13 +3,28 @@
 $this->title = 'Выборка элементов';
 ?>
 
-<table>
-    <tr class="tabhead"><td>Слово</td><td>Перевод</td></tr>
-    <tr><td>Cabbage</td><td>Капуста</td></tr>
-    <tr><td>Carrot</td><td>Морковь</td></tr>
-    <tr><td>Potato</td><td>Картофель</td></tr>
-    <tr><td>Tomato</td><td>Помидор</td></tr>
-</table>
+    <table>
+        <tr class="tabhead">
+            <td>Слово</td>
+            <td>Перевод</td>
+        </tr>
+        <tr>
+            <td>Cabbage</td>
+            <td>Капуста</td>
+        </tr>
+        <tr>
+            <td>Carrot</td>
+            <td>Морковь</td>
+        </tr>
+        <tr>
+            <td>Potato</td>
+            <td>Картофель</td>
+        </tr>
+        <tr>
+            <td>Tomato</td>
+            <td>Помидор</td>
+        </tr>
+    </table>
 
 <?php
 $this->registerJs(<<<JS

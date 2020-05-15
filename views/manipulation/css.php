@@ -2,16 +2,18 @@
 /* @var $this yii\web\View */
 $this->title = 'Изменение стилей CSS';
 ?>
-<div>
-    <a href="1.html" id="link1">Ссылка</a>
-    <ul>
-        <li>Java</li>
-        <li>C/C++</li>
-        <li>PHP</li>
-    </ul>
-</div>
+    <div>
+        <a href="1.html" id="link1">Ссылка</a>
+        <ul>
+            <li>Java</li>
+            <li>C/C++</li>
+            <li>PHP</li>
+        </ul>
+    </div>
     <style>
-        .redStyle {color:red;}
+        .redStyle {
+            color: red;
+        }
     </style>
 
     <button class="redStyle">Переключить стиль</button>

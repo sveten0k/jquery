@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 $this->title = 'POST-запросы';
 ?>
-    <form action="ajax.php" id="loginForm">
+    <form action="../../web/ajax.php" id="loginForm">
         <input type="text" name="login" placeholder="Логин"/><br><br>
         <input type="text" name="password" placeholder="Пароль"/><br><br>
         <input type="submit" value="Войти"/>

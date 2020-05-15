@@ -4,21 +4,21 @@
 
 $this->title = 'My Yii Application';
 ?>
-<div class="site-index">
+    <div class="site-index">
 
-    <button >Загрузить</button>
-    <div id="news"><h3>Нет новостей</h3></div>
-
-
-    <form action="/site/test" id="getInfo">
-    <input id="event" placeholder="Имя события"><br>
-    <input id="date" placeholder="Дата события"><br>
-
-        <button class="btn btn-info" id="submitForm" disabled>Отправить</button>
-    </form>
+        <button>Загрузить</button>
+        <div id="news"><h3>Нет новостей</h3></div>
 
 
-</div>
+        <form action="/site/test" id="getInfo">
+            <input id="event" placeholder="Имя события"><br>
+            <input id="date" placeholder="Дата события"><br>
+
+            <button class="btn btn-info" id="submitForm" disabled>Отправить</button>
+        </form>
+
+
+    </div>
 
 <?php
 $this->registerJs(<<<JS

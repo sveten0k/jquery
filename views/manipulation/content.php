@@ -13,7 +13,7 @@ $this->title = 'Содержимое элементов';
         </li>
         <li class="punkt3">Пункт 3</li>
     </ul>
-    <input type="text" value="Введите значение" />
+    <input type="text" value="Введите значение"/>
 <?php
 $this->registerJs(<<<JS
 // получение разметки для элемента списка и вывод ее в консоль
