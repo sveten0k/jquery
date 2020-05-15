@@ -28,4 +28,8 @@ class AjaxController extends Controller
     {
         return $this->render('json');
     }
+    public function actionScript()
+    {
+        return $this->render('script');
+    }
 }
