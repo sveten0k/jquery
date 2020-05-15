@@ -20,4 +20,12 @@ class AjaxController extends Controller
     {
         return $this->render('get');
     }
+    public function actionPost()
+    {
+        return $this->render('post');
+    }
+    public function actionJson()
+    {
+        return $this->render('json');
+    }
 }
