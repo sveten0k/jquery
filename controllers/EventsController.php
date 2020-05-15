@@ -12,7 +12,23 @@ use app\models\ContactForm;
 
 class EventsController extends Controller
 {
-    public function actionRegistration(){
+    public function actionRegistration()
+    {
         return $this->render('registration');
+    }
+
+    public function actionAscent()
+    {
+        return $this->render('ascent');
+    }
+
+    public function actionDelegate()
+    {
+        return $this->render('delegate');
+    }
+
+    public function actionTrigger()
+    {
+        return $this->render('trigger');
     }
 }

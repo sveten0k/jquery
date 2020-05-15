@@ -31,5 +31,14 @@ $(function(){
         alert('Обработчик для кнопки: '+$(this).text());
     });
 });
+$(function(){
+    $(document).bind('keydown', function(e){ 
+        console.log(e.which);
+    });
+});
+var mes = 'Привет мир!';
+$('button').bind('click', mes, function(e){
+        alert(e.data);
+    });
 JS
 );
